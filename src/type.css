@@ -1,0 +1,17 @@
+.customwrapper {
+  font-size: 5rem; /* Increase this value to make the text bigger */
+  font-weight: bold; /* Optional: makes the text bolder */
+  color: blacks; /* Adjust color as needed */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Optional: adds a subtle shadow for better visibility */
+  z-index: 2;
+}
+
+/* You might also want to adjust the container to ensure proper centering */
+.type {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%; /* Ensures vertical centering within its container */
+  width: 100%;
+  text-align: center;
+}
