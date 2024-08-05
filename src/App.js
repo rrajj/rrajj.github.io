@@ -15,7 +15,7 @@ function App() {
       <div className="social-icons">
         <a href={file} id='resume' target="_blank" rel="noopener noreferrer">
           <AiFillFilePdf style={{ marginLeft: '0px', fontSize: '80px' }} />
-          <span class="hover-text">View My Resume!</span>
+          <span class="hover-text">Resume</span>
         </a>
         <a href="https://www.linkedin.com/in/raj-rishav" rel="noopener noreferrer">
           <FaLinkedin style={{ marginLeft: '0px', fontSize: '80px' }}/>
