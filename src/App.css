@@ -69,11 +69,11 @@
 .hover-text {
   display: none; /* Initially hide the text */
   position: absolute; /* Position it relative to the parent*/
-  top: 110%; /* Center vertically */
+  top: 115%; /* Center vertically */
   left: 15%; /* Center horizontally */
   transform: translate(-50%, -50%); /* Adjust for centering */
   color: #FF0000; /* Color of the hover text */
-  font-size: 16px; /* Adjust font size as needed */
+  font-size: 12px; /* Adjust font size as needed */
   background-color: rgba(255, 255, 255, 0.8); /* Optional: background for better visibility */
   padding: 5px; /* Optional: padding around the text */
   border-radius: 5px; /* Optional: rounded corners */
