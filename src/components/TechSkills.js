@@ -31,7 +31,8 @@ const GetSkills = () => {
         'CI/CD', 'GCP', 'RAGs', 'LLMs', 'CUDA', 'Research', 'Pytorch-Lightning', 'Tensorflow', 'Jenkins',
         'SQL', 'Spring', 'AI', 'ML', 'DL', 'Django', 'MLOps', 'GenAI', 'Finetuning', 'Training Pipelines',
         'Optimization', 'Problem Solving', 'Data Structures', 'Github', 'Airflow', 'Optuna', 'Containerization',
-        'Artificial Intelligence', 'Machine Learning', 'Deep Learning', 'MLFlow'];
+        'Artificial Intelligence', 'Machine Learning', 'Deep Learning', 'MLFlow', 'Computer Vision', 'NLP',
+        'YOLO', 'Stable-Diffusion'];
 
     // applying bold or italics
     const isBold = Math.random() < 0.5;
