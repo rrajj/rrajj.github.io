@@ -10,8 +10,13 @@ function aws_project(){
     window.location.href = "https://rraj.me";
 }
 
+function ai_customer(){
+    window.location.href = "https://github.com/rrajj/ai_customer";
+}
+
 export {
     pantry_github,
     winner,
-    aws_project
+    aws_project,
+    ai_customer
 }
