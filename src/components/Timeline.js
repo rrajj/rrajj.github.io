@@ -22,8 +22,9 @@ const Timeline = () => {
             date="July 2024"
             iconStyle={{ background: 'rgb(0,0,0)', color: '#fff' }}
             icon={ <TbBrandNextjs color='white'/> } 
-            iconOnClick={pantry_github}
-            style={{cursor: 'pointer'}}>
+            // iconOnClick={pantry_github}
+            // style={{cursor: 'pointer'}}
+          >
             <h3 className="vertical-timeline-element-title">AI Chatbot</h3>
             <h4 className="vertical-timeline-element-subtitle">A <code>NextJS</code> chatbot, using <code>OpenAI</code> and implemented RAG using <code>Langchain</code>. Deployed on <code>AWS EC2</code>, and also integrated <code>AWSBedrock API</code></h4>
           </VerticalTimelineElement>
