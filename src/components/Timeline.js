@@ -16,12 +16,23 @@ const Timeline = () => {
       <VerticalTimeline layout='2-columns' lineColor='black'>
 
           {/* headstarter fellowship */}
+          {/*  */}
+          <VerticalTimelineElement position='right' 
+            className="vertical-timeline-element--education"
+            date="July 2024"
+            iconStyle={{ background: 'rgb(0,0,0)', color: '#fff' }}
+            icon={ <TbBrandNextjs color='white'/> } 
+            iconOnClick={pantry_github}
+            style={{cursor: 'pointer'}}>
+            <h3 className="vertical-timeline-element-title">AI Chatbot</h3>
+            <h4 className="vertical-timeline-element-subtitle">A <code>NextJS</code> chatbot, using <code>OpenAI</code> and implemented RAG using <code>Langchain</code>. Deployed on <code>AWS EC2</code>, and also integrated <code>AWSBedrock API</code></h4>
+          </VerticalTimelineElement>
           {/* Pantry Tracker */}
           <VerticalTimelineElement position='left' 
             className="vertical-timeline-element--education"
             date="July 2024"
             iconStyle={{ background: 'rgb(0,0,0)', color: '#fff' }}
-            icon={ <TbBrandNextjs /> } 
+            icon={ <TbBrandNextjs color='white'/> } 
             iconOnClick={pantry_github}
             style={{cursor: 'pointer'}}>
             <h3 className="vertical-timeline-element-title">Pantry Tracker</h3>
@@ -32,8 +43,8 @@ const Timeline = () => {
           <VerticalTimelineElement position='right' 
             className="vertical-timeline-element--education"
             date="June 2024"
-            iconStyle={{ background: 'rgb(128,128,128)', color: '#fff' }}
-            icon={<FcOk />} 
+            iconStyle={{ background: 'rgb(0,0,0)', color: '#fff' }}
+            icon={<FcOk color='black' />} 
             iconOnClick={winner}
             style={{cursor: 'pointer'}}>
             <h3 className="vertical-timeline-element-title">Hackathon Winner</h3>
@@ -54,7 +65,7 @@ const Timeline = () => {
           <VerticalTimelineElement position='right'
             className="vertical-timeline-element--education"
             date="2023 - 2024"
-            iconStyle={{ background: 'rgb(255,0,0)', color: '#fff' }}
+            iconStyle={{ background: 'rgb(105,105,105)', color: '#fff' }}
             icon={<MdOutlineWork />}>
             <h3 className="vertical-timeline-element-title">AT&T Center for Virtualization (SMU)</h3>
             <h4 className="vertical-timeline-element-subtitle">Software Engineer (Graduate Research Assistant)</h4>
@@ -64,7 +75,7 @@ const Timeline = () => {
           <VerticalTimelineElement position='left'
             className="vertical-timeline-element--education"
             date="2022 - 2024"
-            iconStyle={{ background: 'rgb(0,0,0)', color: '#fff' }}
+            iconStyle={{ background: 'rgb(192,192,192)', color: '#fff' }}
             icon={<IoSchoolSharp />}>
             <h3 className="vertical-timeline-element-title">Southern Methodist University</h3>
             <h4 className="vertical-timeline-element-subtitle">M.S Computer Science</h4>
@@ -74,7 +85,7 @@ const Timeline = () => {
           <VerticalTimelineElement position='right'
             className="vertical-timeline-element--education"
             date="2019 - 2022"
-            iconStyle={{ background: 'rgb(255,0,0)', color: '#fff' }}
+            iconStyle={{ background: 'rgb(105,105,105)', color: '#fff' }}
             icon={<MdOutlineWork />}>
             <h3 className="vertical-timeline-element-title">Boltzmann Labs</h3>
             <h4 className="vertical-timeline-element-subtitle">AI Engineer</h4>  
@@ -84,7 +95,7 @@ const Timeline = () => {
           <VerticalTimelineElement position='left'
             className="vertical-timeline-element--education"
             date="2015 - 2019"
-            iconStyle={{ background: 'rgb(0,0,0)', color: '#fff' }}
+            iconStyle={{ background: 'rgb(192,192,192)', color: '#fff' }}
             icon={<IoSchoolSharp />}>
             <h3 className="vertical-timeline-element-title">Chandigarh University</h3>
             <h4 className="vertical-timeline-element-subtitle">B.E. Computer Science & Engineering</h4>
