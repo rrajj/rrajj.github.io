@@ -19,9 +19,11 @@ function App() {
         </a>
         <a href="https://www.linkedin.com/in/raj-rishav" rel="noopener noreferrer">
           <FaLinkedin style={{ marginLeft: '0px', fontSize: '80px' }}/>
+          <span class="hover-text">LinkedIn</span>
         </a>
         <a href="https://github.com/rrajj" id='git' rel="noopener noreferrer">
           <FaGithub style={{ marginLeft: '0px', fontSize: '80px' }} />
+          <span class="hover-text">Github</span>
         </a>
       </div>
       <header className="App-header">
