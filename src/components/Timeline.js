@@ -16,6 +16,18 @@ const Timeline = () => {
       <VerticalTimeline layout='2-columns' lineColor='black'>
 
           {/* headstarter fellowship */}
+          <VerticalTimelineElement position='left' 
+            className="vertical-timeline-element--education"
+            date="November 2024 - Present"
+            iconStyle={{ background: 'rgb(105,105,105)', color: '#fff' }}
+            icon={<MdOutlineWork />}
+            iconOnClick={ai_customer}
+            style={{cursor: 'pointer'}}
+          >
+            <h3 className="vertical-timeline-element-title">WorldLink US (Client: CITI Corp)</h3>
+            <h4 className="vertical-timeline-element-subtitle">Data Scientist/Software Developer</h4>
+          </VerticalTimelineElement>
+
           {/*  */}
           <VerticalTimelineElement position='right' 
             className="vertical-timeline-element--education"
