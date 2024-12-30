@@ -1,4 +1,8 @@
-# Getting Started with Create React App
+# My Personal Website
+### `npm run deploy`
+To build and deploy on gh-pages.  
+Refer [this](https://create-react-app.dev/docs/deployment/) for more.
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
