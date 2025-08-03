@@ -49,7 +49,7 @@ const Timeline = () => {
             iconOnClick={pantry_github}
             style={{cursor: 'pointer'}}>
             <h3 className="vertical-timeline-element-title">Pantry Tracker</h3>
-            <h4 className="vertical-timeline-element-subtitle">A <code>NextJS</code> app to track pantry items, using <code>Firebase</code> for storage, and <code>MatetialUI</code> for different frontend components.</h4>
+            <h4 className="vertical-timeline-element-subtitle">A <code>NextJS</code> app to track pantry items, using <code>Firebase</code> for storage, and <code>MaterialUI</code> for different frontend components.</h4>
           </VerticalTimelineElement>
 
           {/* debate bot */}
